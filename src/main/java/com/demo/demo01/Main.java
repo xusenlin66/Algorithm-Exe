@@ -19,8 +19,7 @@ public class Main {
 
     private static PreprocessResult preprocess(MessageRecord messageRecord) {
         String errorMessage;
-        boolean flag = true;
-        if (flag) {
+        if (true) {
             errorMessage = "根据id查询信息为null, 消费失败";
             messageRecord.setError(errorMessage);
             return null;
